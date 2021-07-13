@@ -13,9 +13,9 @@ body{
     }
 }
 
-#server_pack{
+#server_pack_image{
 
-    width:400px
+    width:30vh
 
 }
 
@@ -71,6 +71,7 @@ body{
     background-color:#F89C01;
     cursor: pointer;
 }
+
 #button_accesar:hover{
 
     
@@ -85,3 +86,9 @@ body{
     background-color:#F89C01;
 
 }
+
+#footer{
+
+    margin-top: 30vh;
+    background-color: #F89C01;
+} 
