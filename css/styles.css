@@ -1,8 +1,39 @@
+body{
+
+    background-color: rgb(10, 16, 36);
+}
+
+@media screen and (min-width: 400px) {
+
+
+    #server_pack{
+
+        width:400px;
+
+    }
+}
+
+#server_pack{
+
+    width:400px
+
+}
+
 #main_container{
 
     display:flex;
     display:block;
 
+}
+
+#text_user{
+
+    color: white;
+}
+
+#text_contraseña{
+
+    color: white;
 }
 
 #requeriments-container{
