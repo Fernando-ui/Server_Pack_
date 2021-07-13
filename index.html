@@ -8,7 +8,7 @@
 
     <title>Server Pack Seguro de Trasportes</title>
 
-    <link rel="shortcut icon" href="./assets/icono (2).ico">
+    <link rel="shortcut icon" href="./icon/icono (2).ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,21 +23,24 @@
         <div id="requeriments-container" >
             
             <div id="requirement-container-1 user-name" >  
-                <label for="name" class="form-label" id="text_user">Usuario</label>
+                <label for="name" class="form-label" id="text_user"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg> Usuario</label>
                 <input type="text"  class="form-control" id="user">
 
             </div>
 
             <div id="requirement-container-2 password" >
-
-                <label for="name" class="form-label" id="text_contraseña">Contraseña</label>
-                <input type="password" class="form-control" id="password">
+                <label for="name" class="form-label" id="text_contraseña"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                </svg> Contraseña</label>
+                <input type="password" class="form-control" id="child_password">
 
             </div>
 
             <div class="d-grid gap-2 col-6 mx-auto" id="requirement-container-3 login">
                 
-                <button class="btn btn-light" id="button_accesar">Accesar</button>
+                <input type="submit" value="Acesso" class="btn btn-light" id="button_accesar"></input>
                 
             </div>
 
@@ -47,6 +50,7 @@
         
     </div>
 
+    
     <div id="footer">
 
     </div>
