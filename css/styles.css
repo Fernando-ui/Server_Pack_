@@ -6,6 +6,11 @@
     --main-bg-colorFondo:rgb(10, 16, 36);
     --main-bg-colorTexto:white;
 }
+p{
+
+    color:white;
+    /* padding-top: 150px; */
+}
 body{
 
     background-color: var(--main-bg-colorFondo);
@@ -108,17 +113,19 @@ body{
 
 /* TODO Agregan la linea del footer con imagenes */
 
-#logo_piePagina{
+/* El grid que se agrega para acomodar el div del footer */
+/* #main_container_footer{
 
-    /* padding-top: 150px; */
-}
+    display: grid;
+    grid-template-rows: 90px 7px 10px ;
 
+} */
 
-@media screen and (min-width:1440px){
+@media screen and (min-width:1050px){
 
     #footer{
 
-        margin-top: 30vh;
+        margin-top: 200px;
         background-color: var(--main-bg-colorFuente);
         height:3px;
         width:100%;
@@ -126,4 +133,11 @@ body{
     }
 
 }
+
+/* #img_footer{
+
+    background-color: white;
+} */
+
+
 
