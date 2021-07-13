@@ -3,12 +3,12 @@ body{
     background-color: rgb(10, 16, 36);
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 700px) {
 
+/* TODO Acomodar la imagen para que sea responsive y de web */
+    #server_pack_image{
 
-    #server_pack{
-
-        width:400px;
+        width:300px;
 
     }
 }
@@ -18,6 +18,8 @@ body{
     width:30vh
 
 }
+
+/* TODO Agregar el pie de pagina con la linea */
 
 #main_container{
 
@@ -48,9 +50,8 @@ body{
     border-color: #F89C01;
     border-radius: 25px;
     padding: 1em;
-    /* Buscar los mediquerys */
     width: 70vw;
-    height: 35vh;
+    /* height: vh; */
     
 }
 
@@ -59,7 +60,7 @@ body{
     #requeriments-container{
 
         width:700px;
-        height:300px;
+        height:250px;
     }
 
 }
@@ -87,6 +88,7 @@ body{
 
 }
 
+/* TODO Agregan la linea del footer con imagenes */
 #footer{
 
     margin-top: 30vh;
