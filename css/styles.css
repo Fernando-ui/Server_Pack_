@@ -1,6 +1,14 @@
+/* Variables de Color*/
+
+:root{
+
+    --main-bg-colorFuente:#F89C01;
+    --main-bg-colorFondo:rgb(10, 16, 36);
+    --main-bg-colorTexto:white;
+}
 body{
 
-    background-color: rgb(10, 16, 36);
+    background-color: var(--main-bg-colorFondo);
 }
 
 @media screen and (min-width:800px){
@@ -8,7 +16,7 @@ body{
     #header_line{
     
         margin-top: 5vh;
-        background-color: #F89C01;
+        background-color:var(--main-bg-colorFuente);
         height:2px;
         width:100%;
     
@@ -38,17 +46,14 @@ body{
 }
 
 
-/* TODO Agregar el pie de pagina con la linea */
-
-
 #text_user{
 
-    color: white;
+    color: var(--main-bg-colorTexto);
 }
 
 #text_contraseña{
 
-    color: white;
+    color: var(--main-bg-colorTexto);
 }
 
 #requeriments-container{
@@ -60,7 +65,7 @@ body{
     margin-bottom: auto;
     margin-top: 150px;
     border-style: solid;
-    border-color: #F89C01;
+    border-color: var(--main-bg-colorFuente);
     border-radius: 25px;
     padding: 1em;
     width: 70vw;
@@ -82,33 +87,39 @@ body{
 #button_accesar{
 
     margin-top:30px;
-    background-color:#F89C01;
+    background-color:var(--main-bg-colorFuente);
     cursor: pointer;
 }
 
 #button_accesar:hover{
 
     
-    background-color: white;
+    background-color: var(--main-bg-colorTexto);
     color:black;
     border-style: solid;
-    border-color: #F89C01;
+    border-color: var(--main-bg-colorFuente);
 }
 
 #button_accesar:active{
 
-    background-color:#F89C01;
+    background-color:var(--main-bg-colorFuente);
 
 }
 
 /* TODO Agregan la linea del footer con imagenes */
+
+#logo_piePagina{
+
+    /* padding-top: 150px; */
+}
+
 
 @media screen and (min-width:1440px){
 
     #footer{
 
         margin-top: 30vh;
-        background-color: #F89C01;
+        background-color: var(--main-bg-colorFuente);
         height:3px;
         width:100%;
 
@@ -116,10 +127,3 @@ body{
 
 }
 
-/* #footer{
-
-    margin-top: 30vh;
-    background-color: #F89C01;
-    height:3px;
-    width:100%;
-}  */
