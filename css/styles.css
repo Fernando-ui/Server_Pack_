@@ -3,8 +3,9 @@ body{
     background-color: rgb(10, 16, 36);
 }
 
-#server_pack_image{
 
+#server_pack_image{
+    display:block;
     border-radius: 25px;
     width:100%;
     
@@ -17,7 +18,9 @@ body{
         border-radius: 25px;
         margin-left: auto;
         margin-right: auto;
-        width:350px;
+        margin-top: 100px;
+        margin-bottom: auto;
+        width:500px;
 
     }
 }
@@ -25,12 +28,12 @@ body{
 
 /* TODO Agregar el pie de pagina con la linea */
 
-#main_container{
+/* #main_container{
 
     display:flex;
     display:block;
 
-}
+} */
 
 #text_user{
 
