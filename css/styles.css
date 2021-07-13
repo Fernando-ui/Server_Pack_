@@ -3,21 +3,25 @@ body{
     background-color: rgb(10, 16, 36);
 }
 
-@media screen and (min-width: 700px) {
+#server_pack_image{
 
-/* TODO Acomodar la imagen para que sea responsive y de web */
+    border-radius: 25px;
+    width:100%;
+    
+}
+@media screen and (min-width: 1050px) {
+    
+    /* TODO Acomodar la imagen para que sea responsive y de web */
     #server_pack_image{
-
-        width:300px;
+        
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width:350px;
 
     }
 }
 
-#server_pack_image{
-
-    width:30vh
-
-}
 
 /* TODO Agregar el pie de pagina con la linea */
 
