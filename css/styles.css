@@ -12,7 +12,28 @@
     justify-content: center;
     margin-top: 50%;
     border-style: inset;
-    border-color: orange;
+    border-color: #F89C01;
     border-radius: 25px;
+    padding: 1em;
 }
 
+#button_accesar{
+
+    margin-top:30px;
+    background-color:#F89C01;
+    cursor: pointer;
+}
+#button_accesar:hover{
+
+    
+    background-color: white;
+    color:black;
+    border-style: solid;
+    border-color: #F89C01;
+}
+
+#button_accesar:active{
+
+    background-color:#F89C01;
+
+}
