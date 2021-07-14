@@ -1,7 +1,7 @@
 /* Variables de Color*/
 
 :root{
-
+    
     --main-bg-colorFuente:#F89C01;
     --main-bg-colorFondo:rgb(10, 16, 36);
     --main-bg-colorTexto:white;
@@ -121,13 +121,6 @@ body{
 
 }
 
-@media screen and (max-width:1050px){
-
-    /*TODO
-        Hacer las medidas del ceular del footer
-    */
-
-}
 
 
 #footer{
@@ -141,25 +134,65 @@ body{
     background-color: var(--main-bg-colorFuente);
     height:3px
 }
+
+/* Modifico el fondo de la imagen */
 #imagen_pie_pagina{
     display:inline-block;
     background-color:#ffff;
     height:60px;
     border-radius:15px;
-    width:525px;
+    width:530px;
 }
 #imagen{
     
-    width:100%;
-    height:50px;
+    width:95%;
+    height:40px;
+    margin-top: 9px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
+/* Muevo el cuadro completo con la imagen */
 #imagen_cuadro{
     
     margin-right: 30px;
     margin-left: 30px;
     margin-top: 150px;
-    margin-bottom: 30px;
-
+    margin-bottom: 100px;
+    
 }
 
+
+@media screen and (max-width:500px){
+
+    
+/* Modifico el fondo de la imagen */
+
+    #imagen_pie_pagina{
+        display:inline-block;
+        background-color:rgb(255, 255, 255);
+        height:50px;
+        border-radius:15px;
+        width:100%;
+    }
+    #imagen{
+
+        width:90%;
+        height:30px;
+        margin-top: 9px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* Muevo el cuadro completo con la imagen */
+
+    #imagen_cuadro{
+        
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+
+    }
+    
+}
