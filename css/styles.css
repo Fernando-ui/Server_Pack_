@@ -6,11 +6,7 @@
     --main-bg-colorFondo:rgb(10, 16, 36);
     --main-bg-colorTexto:white;
 }
-p{
 
-    color:white;
-    /* padding-top: 150px; */
-}
 body{
 
     background-color: var(--main-bg-colorFondo);
@@ -111,15 +107,6 @@ body{
 
 }
 
-/* TODO Agregan la linea del footer con imagenes */
-
-/* El grid que se agrega para acomodar el div del footer */
-/* #main_container_footer{
-
-    display: grid;
-    grid-template-rows: 90px 7px 10px ;
-
-} */
 
 @media screen and (min-width:1050px){
 
@@ -134,10 +121,45 @@ body{
 
 }
 
-/* #img_footer{
+@media screen and (max-width:1050px){
 
-    background-color: white;
-} */
+    /*TODO
+        Hacer las medidas del ceular del footer
+    */
+
+}
 
 
+#footer{
+    display:inline;
+    text-align: center;
+    
+}
+
+
+#linea{
+    background-color: var(--main-bg-colorFuente);
+    height:3px
+}
+#imagen_pie_pagina{
+    display:inline-block;
+    background-color:#ffff;
+    height:60px;
+    border-radius:15px;
+    width:525px;
+}
+#imagen{
+    
+    width:100%;
+    height:50px;
+}
+
+#imagen_cuadro{
+    
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+
+}
 
