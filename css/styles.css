@@ -70,7 +70,6 @@ body{
     border-radius: 25px;
     padding: 1em;
     width: 70vw;
-    /* height: vh; */
     
 }
 
@@ -139,14 +138,14 @@ body{
 #imagen_pie_pagina{
     display:inline-block;
     background-color:#ffff;
-    height:60px;
+    height:55px;
     border-radius:15px;
     width:530px;
 }
 #imagen{
     
     width:95%;
-    height:40px;
+    height:30px;
     margin-top: 9px;
     margin-left: 5px;
     margin-right: 5px;
