@@ -25,10 +25,6 @@ body{
     
 }
 
-/* TODO  Ajuste del logotipo 1 y 2 con grid*/
-
-
-
 .logos_header_grid{
 
     display:grid;
@@ -54,6 +50,8 @@ body{
 }
 
 /* !Esto es la medida dentro del responsive pero hay que cambiarlo */
+/* TODO */
+
 /* @media screen and (min-width: 1050px) {
     
     #server_pack_image{
@@ -61,6 +59,17 @@ body{
 
     }
 } */
+
+#Logotipo_Central{
+
+    text-align:center;
+}
+
+#imagen_logo{
+
+    width:25%;
+    margin-top: 35px;
+}
 
 #text_user{
 
@@ -79,7 +88,7 @@ body{
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    margin-top: 150px;
+    margin-top: 50px;
     border-style: solid;
     border-color: var(--main-bg-colorFuente);
     border-radius: 25px;
