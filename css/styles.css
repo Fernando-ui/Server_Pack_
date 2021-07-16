@@ -90,6 +90,18 @@ body{
     height:400px;
 }
 
+#user{
+
+    width:300px;
+    margin-left: 10px;
+}
+
+#child_password{
+    
+    width:300px;
+    margin-left: 10px;
+    
+}
 
 #text_user{
 
