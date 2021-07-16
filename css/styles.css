@@ -7,11 +7,25 @@
     --main-bg-colorTexto:rgb(0, 0, 0);
 }
 
+
+.container{
+    
+    height:100vh;
+
+}
+
+
 body{
 
     background-color: var(--main-bg-colorFondo);
+    margin: 0;
+    height:auto;
 }
+footer{
 
+    width: 100%;
+
+}
 @media screen and (min-width:1050px){
     
     #header_line{
@@ -19,7 +33,7 @@ body{
         margin-top: 20px;
         background-color:var(--main-bg-colorFuente);
         height:4px;
-        width:100%;
+        width:auto;
         
     }
     
@@ -171,6 +185,7 @@ body{
 
 
 #linea{
+    
     background-color: var(--main-bg-colorFuente);
     height:3px
 }
@@ -192,13 +207,15 @@ body{
     margin-right: 5px;
 }
 
+/* !Revisar si se manda todo al footer  */
+
 /* Muevo el cuadro completo con la imagen */
 #imagen_cuadro{
     
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    /* margin-right: 30px; */
+    /* margin-left: 30px; */
+    /* margin-top: 150px; */
+    /* margin-bottom: 100px; */
     
 }
 
