@@ -71,37 +71,46 @@ body{
     margin-top: 35px;
 }
 
-#text_user{
-
-    color: var(--main-bg-colorTexto);
-}
-
-#text_contraseña{
-
-    color: var(--main-bg-colorTexto);
-}
 
 #requeriments-container{
-
+    
     box-shadow: 2px 8px 10px 2px rgba(0, 0, 0, 0.2);
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
     margin-top: 50px;
-    width: 100%;
-    
 }
 
-@media screen and (min-width:850px) {
+#requeriments-container{
+    
+    display:grid;
+    grid-template-rows: 23% 23% 13%;
+    width:25%;
+    height:400px;
+}
+
+
+#text_user{
+
+    color: var(--main-bg-colorTexto);
+}
+
+#text_contraseña{
+    
+    color: var(--main-bg-colorTexto);
+}
+
+
+/* @media screen and (min-width:850px) {
     
     #requeriments-container{
 
-        width:700px;
-        height:250px;
+        width:25%;
+        height:auto;
     }
 
-}
+} */
 
 
 #button_accesar{
