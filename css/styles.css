@@ -18,48 +18,49 @@ body{
         
         margin-top: 20px;
         background-color:var(--main-bg-colorFuente);
-        height:6px;
+        height:4px;
         width:100%;
         
     }
     
 }
 
-/* TODO  Ajuste del logotipo 1*/
+/* TODO  Ajuste del logotipo 1 y 2 con grid*/
 
-#header-logo{
-    
 
+
+.logos_header_grid{
+
+    display:grid;
+    grid-template-columns: 50% 50%;
 }
 
 
 
 #server_pack_image{
     
+    width:70px;
+    margin:1em 0 0 1em;
 
-    width:30px;
-    height:30px;
-
-    
-}
-#header-logo_2{
-
-    
 }
 
 #logotipo_2{
 
-    width:30px;
-    height:30px;
+    position: relative;
+    left:80%;
+    margin:1em 1em 0 0;
+    width:70px;
+    
 }
 
-@media screen and (min-width: 1050px) {
+/* !Esto es la medida dentro del responsive pero hay que cambiarlo */
+/* @media screen and (min-width: 1050px) {
     
     #server_pack_image{
         
 
     }
-}
+} */
 
 #text_user{
 
@@ -127,7 +128,7 @@ body{
 
         margin-top: 200px;
         background-color: var(--main-bg-colorFuente);
-        height:3px;
+        height:4px;
         width:100%;
 
     }
