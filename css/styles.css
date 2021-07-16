@@ -13,39 +13,53 @@ body{
 }
 
 @media screen and (min-width:1050px){
-
+    
     #header_line{
-    
-        margin-top: 5vh;
+        
+        margin-top: 20px;
         background-color:var(--main-bg-colorFuente);
-        height:2px;
+        height:6px;
         width:100%;
-    
+        
     }
+    
+}
+
+/* TODO  Ajuste del logotipo 1*/
+
+#header-logo{
+    
 
 }
+
 
 
 #server_pack_image{
-    display:block;
-    border-radius: 25px;
-    width:100%;
+    
+
+    width:30px;
+    height:30px;
+
     
 }
+#header-logo_2{
+
+    
+}
+
+#logotipo_2{
+
+    width:30px;
+    height:30px;
+}
+
 @media screen and (min-width: 1050px) {
     
     #server_pack_image{
         
-        border-radius: 25px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 100px;
-        margin-bottom: auto;
-        width:500px;
 
     }
 }
-
 
 #text_user{
 
