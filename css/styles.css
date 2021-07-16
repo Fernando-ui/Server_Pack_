@@ -3,8 +3,8 @@
 :root{
     
     --main-bg-colorFuente:#F89C01;
-    --main-bg-colorFondo:rgb(10, 16, 36);
-    --main-bg-colorTexto:white;
+    --main-bg-colorFondo:rgb(255, 255, 255);
+    --main-bg-colorTexto:rgb(0, 0, 0);
 }
 
 body{
