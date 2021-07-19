@@ -29,7 +29,7 @@ footer{
 
 #header_line{
     
-    margin-top: 20px;
+    margin-top: 5px;
     background-color:var(--main-bg-colorFuente);
     height:4px;
     width:auto;
@@ -37,9 +37,26 @@ footer{
 }
 
 .logos_header_grid{
-
+    
     display:grid;
     grid-template-columns: 50% 50%;
+}
+
+#imagen_logotipo{
+
+    text-align:right;
+    margin:0px;
+
+}
+
+/* TODO Colocar el tamaño correspondientedel logo */
+
+#logotipo_2{
+
+    /* position: relative; */
+    left:80%;
+    width:100px;
+    
 }
 
 
@@ -51,14 +68,6 @@ footer{
 
 }
 
-#logotipo_2{
-
-    position: relative;
-    left:80%;
-    margin:1em 1em 0 0;
-    width:70px;
-    
-}
 
 
 
@@ -196,17 +205,22 @@ footer{
     display:grid;
     grid-template-columns:20% 20% 20% 20% 20%;
 }
+
 #imagen_1{
 
     width:70px;
 }
+
 #imagen_2{
 
     width:150px;
 }
+
 #imagen_3{
 
+    /* acomodar para responsive */
     width:150px;
+
 }
 
 
