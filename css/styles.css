@@ -112,7 +112,7 @@ footer{
 }
 
 /* TODO Editar tamaño de los inputs para que coincida */
-@media screen and (max-width:1400px){
+@media screen and (max-width:800px){
 
     #requeriments-container{
 
@@ -126,11 +126,12 @@ footer{
     margin-left: 10px;
 }
 
-@media screen and (max-width:1400px){
-
+@media screen and (max-width:800px){
+    
     #user{
-
+        
         width:45vw;
+        margin-left: 10px;
 
     }
 }
@@ -142,7 +143,7 @@ footer{
     
 }
 
-@media screen and (max-width:1400px){
+@media screen and (max-width:800px){
     
     #child_password{
 
