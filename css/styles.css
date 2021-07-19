@@ -161,20 +161,12 @@ footer{
 
 }
 
+#linea_footer{
 
-@media screen and (min-width:1050px){
-
-    #footer{
-
-        margin-top: 200px;
-        background-color: var(--main-bg-colorFuente);
-        height:4px;
-        width:100%;
-
-    }
+    background-color:var(--main-bg-colorFuente);
+    height:3px;
 
 }
-
 
 
 #footer{
@@ -187,6 +179,21 @@ footer{
     display:grid;
     grid-template-columns: 33% 33% 33%;
 }
+
+
+#imagen_1{
+
+    width:25px;
+}
+#imagen_2{
+
+    width:25px;
+}
+#imagen_3{
+
+    width:25px;
+}
+
 
 #linea{
     
