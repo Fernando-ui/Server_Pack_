@@ -178,11 +178,15 @@ footer{
 
 
 #footer{
-    display:inline;
-    text-align: center;
-    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+#imagen_cuadro{
 
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+}
 
 #linea{
     
