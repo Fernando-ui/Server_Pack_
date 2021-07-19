@@ -151,7 +151,7 @@ footer{
 #texto-contraseña{
 
     text-align:center;
-    
+
 }
 
 @media screen and (max-width:800px){
@@ -271,8 +271,21 @@ footer{
 #footer_item_2{
 
     display:grid;
-    grid-template-columns:20% 20% 20% 20% 20%;
+    /* grid-template-columns:33% 33% 33%; */
+    grid-template-rows: 33% 33% 33%;
+    margin: 0  25% 25% 25%;
 }
+/* @media screen and (max-width:700px){
+    
+    #footer_item_2{
+        display:grid;
+        grid-template-columns:33% 33% 33%;
+        grid-template-rows: 33% 33% 33%;
+        margin: 0 40px 40px 40px;
+
+    }
+} */
+
 
 @media screen and (max-width:700px){
 
