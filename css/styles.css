@@ -273,7 +273,7 @@ footer{
     display:grid;
     /* grid-template-columns:33% 33% 33%; */
     grid-template-rows: 33% 33% 33%;
-    margin: 0  25% 25% 25%;
+    margin: 5%  25% 0 25%;
 }
 /* @media screen and (max-width:700px){
     
