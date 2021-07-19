@@ -26,16 +26,13 @@ footer{
     width: 100%;
 
 }
-@media screen and (min-width:1050px){
+
+#header_line{
     
-    #header_line{
-        
-        margin-top: 20px;
-        background-color:var(--main-bg-colorFuente);
-        height:4px;
-        width:auto;
-        
-    }
+    margin-top: 20px;
+    background-color:var(--main-bg-colorFuente);
+    height:4px;
+    width:auto;
     
 }
 
@@ -63,16 +60,7 @@ footer{
     
 }
 
-/* !Esto es la medida dentro del responsive pero hay que cambiarlo */
-/* TODO */
 
-/* @media screen and (min-width: 1050px) {
-    
-    #server_pack_image{
-        
-
-    }
-} */
 
 #Logotipo_Central{
 
@@ -100,14 +88,32 @@ footer{
     
     display:grid;
     grid-template-rows: 23% 23% 13%;
+    /* * Con esto podemos editar el ancho de el login */
     width:25%;
     height:400px;
+}
+
+/* TODO Editar tamaño de los inputs para que coincida */
+@media screen and (max-width:1400px){
+
+    #requeriments-container{
+
+        width:50vw;
+    }
 }
 
 #user{
 
     width:300px;
     margin-left: 10px;
+}
+
+@media screen and (max-width:1400px){
+
+    #user{
+
+        width:45vw;
+    }
 }
 
 #child_password{
@@ -117,6 +123,14 @@ footer{
     
 }
 
+@media screen and (max-width:1400px){
+    
+    #child_password{
+
+        width:45vw;
+        
+    }
+}
 #text_user{
 
     color: var(--main-bg-colorTexto);
@@ -127,16 +141,6 @@ footer{
     color: var(--main-bg-colorTexto);
 }
 
-
-/* @media screen and (min-width:850px) {
-    
-    #requeriments-container{
-
-        width:25%;
-        height:auto;
-    }
-
-} */
 
 
 #button_accesar{
@@ -240,38 +244,4 @@ footer{
     
 }
 
-
-@media screen and (max-width:700px){
-
-    
-/* Modifico el fondo de la imagen */
-
-    #imagen_pie_pagina{
-        display:inline-block;
-        background-color:rgb(255, 255, 255);
-        height:50px;
-        border-radius:15px;
-        width:100%;
-    }
-    #imagen{
-
-        width:90%;
-        height:30px;
-        margin-top: 9px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    /* Muevo el cuadro completo con la imagen */
-
-    #imagen_cuadro{
-        
-        margin-right: 30px;
-        margin-left: 30px;
-        margin-top: 70px;
-        margin-bottom: 50px;
-
-    }
-    
-}
 
