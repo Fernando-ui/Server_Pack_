@@ -120,6 +120,11 @@ footer{
     }
 }
 
+#texto-usuario{
+
+    text-align:center;
+}
+
 #user{
 
     width:23vw;
@@ -140,6 +145,12 @@ footer{
     
     width:23vw;
     margin-left: 10px;
+    
+}
+
+#texto-contraseña{
+
+    text-align:center;
     
 }
 
