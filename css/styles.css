@@ -50,6 +50,27 @@ footer{
 }
 
 /* TODO Colocar el tamaño correspondientedel logo */
+#server_pack_image{
+
+    display:none;
+}
+
+@media screen and (max-width:800px){
+
+    #server_pack_image{
+        display:block;
+        width:125px;
+        height:30px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    #imagen_logo{
+
+        display:none;
+    }
+}
+
 
 #logotipo_2{
 
@@ -57,17 +78,6 @@ footer{
     width:100px;
     
 }
-
-
-
-#server_pack_image{
-    
-    width:70px;
-    margin:1em 0 0 1em;
-    
-}
-
-
 
 
 #Logotipo_Central{
@@ -117,7 +127,9 @@ footer{
     #requeriments-container{
 
         width:50vw;
+        margin-bottom: 300px;
     }
+    
 }
 
 #texto-usuario{
@@ -272,19 +284,9 @@ footer{
 
     display:grid;
     /* grid-template-columns:33% 33% 33%; */
-    grid-template-rows: 33% 33% 33%;
+    grid-template-rows: 30% 30% 30%;
     margin: 5%  25% 0 25%;
 }
-/* @media screen and (max-width:700px){
-    
-    #footer_item_2{
-        display:grid;
-        grid-template-columns:33% 33% 33%;
-        grid-template-rows: 33% 33% 33%;
-        margin: 0 40px 40px 40px;
-
-    }
-} */
 
 
 @media screen and (max-width:700px){

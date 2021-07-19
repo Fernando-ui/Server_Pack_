@@ -48,5 +48,3 @@ obtenerAlgo().then(console.log);
 
 
 
-
-
