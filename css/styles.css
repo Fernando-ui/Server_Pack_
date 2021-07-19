@@ -8,7 +8,7 @@
 }
 
 
-.container{
+.Master_container{
     
     height:100vh;
 
@@ -104,7 +104,7 @@ footer{
 
 #user{
 
-    width:300px;
+    width:23vw;
     margin-left: 10px;
 }
 
@@ -118,7 +118,7 @@ footer{
 
 #child_password{
     
-    width:300px;
+    width:23vw;
     margin-left: 10px;
     
 }
@@ -130,6 +130,7 @@ footer{
         width:45vw;
         
     }
+
 }
 #text_user{
 
@@ -221,27 +222,18 @@ footer{
     background-color:#ffff;
     height:55px;
     border-radius:15px;
-    width:530px;
+    /* *Con esto mover los tamaños de los divs  */
+    /* width:530px; */
 }
 #imagen{
     
-    width:95%;
+    /* *Con esto mover los tamaños de los divs  */
+    /* width:95%; */
     height:30px;
     margin-top: 9px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-/* !Revisar si se manda todo al footer  */
-
-/* Muevo el cuadro completo con la imagen */
-#imagen_cuadro{
-    
-    /* margin-right: 30px; */
-    /* margin-left: 30px; */
-    /* margin-top: 150px; */
-    /* margin-bottom: 100px; */
-    
-}
 
 
