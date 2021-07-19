@@ -174,13 +174,23 @@ footer{
     flex-direction: column;
     justify-content: space-between;
 }
+
+/* !Hacer la revision del tamaño de los logos para el espaciado con el login */
 #imagen_cuadro{
 
     display:grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+    /*TODO El grid gap me da la separacion de los elementos */
+    grid-gap:10px;
+    align-items: end;
 }
 
+#footer_item_2{
 
+    display:grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+}
 #imagen_1{
 
     width:25px;
