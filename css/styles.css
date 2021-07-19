@@ -53,7 +53,6 @@ footer{
 
 #logotipo_2{
 
-    /* position: relative; */
     left:80%;
     width:100px;
     
@@ -200,35 +199,54 @@ footer{
     align-items: end;
 }
 
+
+#imagen_1{
+    
+    width:70px;
+}
+
+#imagen_2{
+    
+    width:125px;
+}
+
+#imagen_3{
+    
+    /* acomodar para responsive */
+    width:150px;
+    
+}
+
+
+
+@media screen and (max-width:1000px){
+
+    #imagen_1{
+
+        width:55px;
+    }
+    #imagen_2{
+
+        width:80px;
+    }
+    #imagen_3{
+        margin-top: 20px;
+        width:80px;
+    }
+}
+
 #footer_item_2{
 
     display:grid;
     grid-template-columns:20% 20% 20% 20% 20%;
 }
 
-#imagen_1{
 
-    width:70px;
-}
-
-#imagen_2{
-
-    width:150px;
-}
-
-#imagen_3{
-
-    /* acomodar para responsive */
-    width:150px;
-
-}
-
-
-#linea{
+/* #linea{
     
     background-color: var(--main-bg-colorFuente);
     height:3px
-}
+} */
 
 /* Modifico el fondo de la imagen */
 #imagen_pie_pagina{
