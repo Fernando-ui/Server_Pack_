@@ -235,19 +235,6 @@ footer{
     }
 }
 
-#footer_item_2{
-
-    display:grid;
-    grid-template-columns:20% 20% 20% 20% 20%;
-}
-
-
-/* #linea{
-    
-    background-color: var(--main-bg-colorFuente);
-    height:3px
-} */
-
 /* Modifico el fondo de la imagen */
 #imagen_pie_pagina{
     display:inline-block;
@@ -257,15 +244,24 @@ footer{
     /* *Con esto mover los tamaños de los divs  */
     /* width:530px; */
 }
-#imagen{
-    
-    /* *Con esto mover los tamaños de los divs  */
-    /* width:95%; */
-    height:30px;
-    margin-top: 9px;
-    margin-left: 5px;
-    margin-right: 5px;
+
+#footer_item_2{
+
+    display:grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
 }
+
+@media screen and (max-width:700px){
+
+
+    #Espaciado{
+
+        font-size: 9px;
+    }
+
+}
+
+
 
 
 
