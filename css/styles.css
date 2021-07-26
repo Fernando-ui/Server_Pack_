@@ -15,17 +15,18 @@
 }
 
 
-body{
 
+body{
+    
     background-color: var(--main-bg-colorFondo);
     margin: 0;
     height:auto;
     
 }
 footer{
-
+    
     width: 100%;
-
+    
 }
 
 #header_line{
@@ -36,6 +37,31 @@ footer{
     width:auto;
     
 }
+@media screen and (max-width:800px){
+
+    .Master_container{
+
+        height:60vh;
+        
+        
+    }
+
+    
+
+}
+@media screen and (max-width:300px){
+
+    .Master_container{
+
+        height:60vh;
+        
+        
+    }
+
+    
+
+}
+
 
 .logos_header_grid{
     
@@ -170,7 +196,7 @@ footer{
 #user{
 
     width:23vw;
-    margin-left: 10px;
+    margin-left: 13px;
 }
 
 @media screen and (max-width:800px){
