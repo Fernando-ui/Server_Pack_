@@ -205,17 +205,17 @@ footer{
         
         width:45vw;
         margin-left: 10px;
-
+        
     }
 }
 
 @media screen and (max-width:300px){
-
+    
     #user{
-
+        
         width:90%;
     }
-
+    
 }
 
 
