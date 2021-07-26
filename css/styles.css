@@ -107,7 +107,7 @@ footer{
 
 #imagen_logo{
     
-    width:25%;
+    width:15%;
     margin-top: 35px;
 
 }
@@ -135,10 +135,10 @@ footer{
 #requeriments-container{
     
     display:grid;
-    grid-template-rows: 23% 23% 13%;
+    grid-template-rows: 33% 23% 15%;
     /* * Con esto podemos editar el ancho de el login */
     width:25%;
-    height:400px;
+    height:290px;
 }
 
 /* TODO Editar tamaño de los inputs para que coincida */
