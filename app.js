@@ -5,46 +5,63 @@ const btnPassword = document.querySelector('#password');
 
 // Obtener informacion para un Endpoint.
 
-const url = 'https://api.chucknorris.io/jokes/random';
+const url = 'https://reqres.in/api/users';
 
 
+const leer = async(pagina) => {
 
-const obtenerChiste = async() => {
+    const resp = await fetch(`${url}/${pagina}`);
+    const data = await resp.json();
 
-    try {
+    return data;
 
-        const resp = await fetch(url);
-        const value = await resp.json();
-        
-        return value;
-        
-    } catch (error) {
-        
-        console.error('No se pudo accesar al Endpoint')
-    }
+}
 
+leer(4).then(console.log,'tenemos la respuesta')
+
+
+const crearUsuario = async( usuario ) => {
+
+    const resp = await fetch(url,{
+        method: 'POST',
+        body: JSON.stringify(usuario),
+        headers:{
+            'Content-Type': 'application/json'
+        }
+    });
+
+    // console.log(await resp.json());
+    return await resp.json();
+    
+}
+const actualizarUsuario = async( usuario, id ) => {
+
+    const resp = await fetch(`${url}/${id}`,{
+        method: 'PUT',
+        body: JSON.stringify(usuario),
+        headers:{
+            'Content-Type': 'application/json'
+        }
+    });
+
+    // console.log(await resp.json());
+    return await resp.json();
+    
 }
 
 
 
-const obtenerAlgo = async() => {
-    
-    const respuesta = await obtenerChiste();
-    console.log(respuesta,'Aqui esta respuesta');
-    return respuesta;
-    
 
-}
-
-obtenerAlgo().then(console.log);
+crearUsuario({
+    name:'Fernando',
+    job:'inge'
+}).then(console.log).catch(console.log)
 
 
 
 
-
-
-
-
-
-
+actualizarUsuario({
+    name:'fernando_2',
+    job:'lo que sea'
+},3).then(console.log)
 

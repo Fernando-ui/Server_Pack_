@@ -20,6 +20,7 @@ body{
     background-color: var(--main-bg-colorFondo);
     margin: 0;
     height:auto;
+    
 }
 footer{
 
@@ -70,6 +71,18 @@ footer{
     }
 }
 
+@media screen and (max-width:300px){
+
+    #server_pack_image{
+
+        width:150px;
+        margin:0;
+        margin-top: 10px;
+        margin-left:10px;
+    }
+
+}
+
 
 #logotipo_2{
 
@@ -78,6 +91,14 @@ footer{
     
 }
 
+@media screen and (max-width:300px){
+
+    #logotipo_2{
+
+        width:80px;
+    }
+
+}
 
 #Logotipo_Central{
     
@@ -131,6 +152,16 @@ footer{
     
 }
 
+@media screen and (max-width:300px){
+
+    #requeriments-container{
+
+        width:70vw;
+    }
+
+}
+
+
 #texto-usuario{
 
     text-align:center;
@@ -151,6 +182,16 @@ footer{
 
     }
 }
+
+@media screen and (max-width:300px){
+
+    #user{
+
+        width:90%;
+    }
+
+}
+
 
 #child_password{
     
@@ -174,6 +215,17 @@ footer{
     }
 
 }
+
+@media screen and (max-width:300px){
+
+    #child_password{
+
+        width:90%;
+    }
+
+}
+
+
 #text_user{
 
     color: var(--main-bg-colorTexto);
@@ -228,7 +280,7 @@ footer{
     display:grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 
-    /*TODO El grid gap me da la separacion de los elementos */
+    /*El grid gap me da la separacion de los elementos */
     grid-gap:10px;
     align-items: end;
 }
@@ -268,6 +320,28 @@ footer{
         width:80px;
     }
 }
+@media screen and (max-width:300px){
+
+    #imagen_cuadro{
+
+        grid-template-columns: 10% 20% 20% 20% 10%;
+
+    }
+
+    #imagen_1{
+
+        width:50px;
+    }
+    #imagen_2{
+
+        width:55px;
+    }
+    #imagen_3{
+        margin-top: 20px;
+        width:80px;
+    }
+
+}
 
 #imagen_pie_pagina{
     display:inline-block;
@@ -295,6 +369,14 @@ footer{
 
 }
 
+@media screen and (max-width:300px){
+
+    #footer_item_2{
+
+        margin: 0% 20% 0 25%;
+    }
+
+}
 
 
 
