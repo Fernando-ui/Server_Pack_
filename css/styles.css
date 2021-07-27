@@ -216,15 +216,28 @@ footer{
     }
     
 }
-#Caja_icono{
 
+#inputIcon input[type=text]{
+
+    padding-right:40px;
 
 }
 
-#icono_Error{
-    width:15px;
-    height:15px;
+#inputIcon{
+
+
+    position:relative;
 }
+
+#inputIcon i{
+
+    position:absolute;
+    top:10px;
+    left:88%;
+    color:green;
+    
+}
+
 
 #child_password{
     
