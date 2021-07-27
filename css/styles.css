@@ -62,7 +62,6 @@ footer{
 
 }
 
-
 .logos_header_grid{
     
     display:grid;
@@ -162,6 +161,7 @@ footer{
     
     display:grid;
     grid-template-rows: 33% 23% 15%;
+    grid-template-columns: 90% 10%;
     /* * Con esto podemos editar el ancho de el login */
     width:25%;
     height:290px;
@@ -217,7 +217,15 @@ footer{
     }
     
 }
+#Caja_icono{
 
+
+}
+
+#icono_Error{
+    width:15px;
+    height:15px;
+}
 
 #child_password{
     
