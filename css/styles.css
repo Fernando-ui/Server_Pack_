@@ -161,7 +161,6 @@ footer{
     
     display:grid;
     grid-template-rows: 33% 23% 15%;
-    grid-template-columns: 90% 10%;
     /* * Con esto podemos editar el ancho de el login */
     width:25%;
     height:290px;
