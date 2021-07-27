@@ -270,7 +270,26 @@ footer{
     }
 
 }
+#inputPassword input[type=text]{
 
+    padding-right:40px;
+
+}
+
+#inputPassword{
+
+
+    position:relative;
+}
+
+#inputPassword i{
+
+    position:absolute;
+    top:10px;
+    left:88%;
+    color:green;
+    
+}
 
 #text_user{
 
