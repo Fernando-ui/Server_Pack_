@@ -48,10 +48,10 @@ const Formulario = ( ()=>{
                     
                     color:'rgb(143, 32, 32)'
                 });
-                setInterval(() => {
+                // setInterval(() => {
                     
-                    removerEtiquetas('i');                
-                }, 1500);
+                //     removerEtiquetas('i');                
+                // }, 1700);
                 
             }else{
                 
@@ -70,10 +70,10 @@ const Formulario = ( ()=>{
                 $('#inputIcon').append(iconoRight);
                 $('#inputPassword').append(iconoRight);
 
-                setInterval(() => {
+                // setInterval(() => {
                     
-                    removerEtiquetas('i');
-                }, 1500);
+                //     removerEtiquetas('i');
+                // }, 1700);
             }
         
         
