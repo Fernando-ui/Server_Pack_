@@ -1,6 +1,8 @@
 "use strict";
-var Formulario = (function () {
-    'use strict';
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.validacionFormulario = void 0;
+require("jquery");
+var validacionFormulario = function () {
     var formulario = $('#formulario');
     formulario.on('submit', function (e) {
         var usuario = $('#user');
@@ -14,7 +16,6 @@ var Formulario = (function () {
             $(password).css({ borderColor: '' });
         };
         if (!usuario.val() || !password.val()) {
-            console.log($('#inputIcon').children('i'));
             $('#inputIcon').append(iconoFail);
             $('#inputPassword').append(iconoFail);
             $(usuario).css({
@@ -47,5 +48,5 @@ var Formulario = (function () {
             }, 1700);
         }
     });
-    console.log('hola, todo bien desde validaciones');
-})();
+};
+exports.validacionFormulario = validacionFormulario;

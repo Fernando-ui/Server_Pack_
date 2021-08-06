@@ -1,14 +1,14 @@
-const Formulario = ( ()=>{
-    'use strict'
+import 'jquery';
 
-    const formulario =$('#formulario');
-
+const validacionFormulario = () => {
+        const formulario =$('#formulario');
+    
         formulario.on('submit', function (e){
         
             const usuario  = $('#user');
             const password = $('#child_password');
             e.preventDefault();
-
+    
             const iconoRight = '<i class="fas fa-check-circle"></i>';
             const iconoFail = '<i class="fas fa-times-circle"></i>';
     
@@ -21,10 +21,9 @@ const Formulario = ( ()=>{
                 
             }
         
-
+    
             if(!usuario.val() || !password.val()){
     
-                console.log( $('#inputIcon').children('i'));
                 
         
                 
@@ -32,7 +31,7 @@ const Formulario = ( ()=>{
                 $('#inputPassword').append(iconoFail);
                 
                 $(usuario).css({
-
+    
                     borderColor:'red'
                 })
                 $('#inputPassword i').css({
@@ -40,7 +39,7 @@ const Formulario = ( ()=>{
                     
                 });
                 $(password).css({
-
+    
                     borderColor:'red'
                 })
                 
@@ -57,19 +56,19 @@ const Formulario = ( ()=>{
                 
             
                 $(password).css({
-
+    
                     borderColor:'green'
                 });
-
+    
                 $(usuario).css({
-
+    
                     borderColor:'green'
                 });
                 
                 
                 $('#inputIcon').append(iconoRight);
                 $('#inputPassword').append(iconoRight);
-
+    
                 setInterval(() => {
                     
                     removerEtiquetas('i');
@@ -78,14 +77,18 @@ const Formulario = ( ()=>{
         
         
         })
+        
+    
+    }
     
 
     
-
-
-    console.log('hola, todo bien desde validaciones');
     
     
-    
-})();
 
+
+export{
+
+    validacionFormulario
+    
+}
