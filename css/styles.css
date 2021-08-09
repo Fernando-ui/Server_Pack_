@@ -166,7 +166,6 @@ footer{
     height:290px;
 }
 
-/* TODO Editar tamaño de los inputs para que coincida */
 @media screen and (max-width:800px){
 
     #requeriments-container{
