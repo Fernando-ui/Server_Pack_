@@ -1,6 +1,8 @@
 
 // import { validacionFormulario } from "./js/validaciones";
 import { acceso } from "./js/info";
+import { encriptacion } from "./js/encriptando";
+
 
 console.log('hola');
 
@@ -9,3 +11,4 @@ console.log('hola');
 
 // *Tenemos el acceso
 acceso();
+

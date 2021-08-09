@@ -5,6 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.acceso = void 0;
 var sweetalert2_all_min_js_1 = __importDefault(require("../node_modules/sweetalert2/dist/sweetalert2.all.min.js"));
+var encriptando_1 = require("./encriptando");
 require("jquery");
 var boton = $('#button_accesar');
 var pass = $('#child_password');
@@ -26,10 +27,12 @@ var acceso = function () {
         pass.attr('value', pas);
         var conf = {
             Usuario: '',
-            Contrasena: ''
+            password: ''
         };
         conf.Usuario = user.attr('value');
-        conf.Contrasena = pass.attr('value');
+        var passEncr = pass.attr('value');
+        var finalPass = encriptando_1.encriptacion(passEncr);
+        conf.password = finalPass;
         console.log(conf);
     });
 };

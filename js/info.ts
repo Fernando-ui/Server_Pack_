@@ -1,4 +1,6 @@
-import  Swal from '../node_modules/sweetalert2/dist/sweetalert2.all.min.js'
+import  Swal from '../node_modules/sweetalert2/dist/sweetalert2.all.min.js';
+import *  as bcryptjs from 'bcryptjs';
+import { encriptacion } from "./encriptando";
 import 'jquery';
 
 
@@ -36,16 +38,18 @@ const acceso = () => {
         
     
 
-        // TODO Mandar la informacion en tipo Json 
-        const conf:{Usuario?:string,  Contrasena?:string} = {
+        // * Mandando la infromacion en tipo Json
+        const conf:{Usuario?:string,  password?:string} = {
             Usuario:'',
-            Contrasena:''
+            password:''
         };
         
         conf.Usuario = user.attr('value');
-        
-        // TODO Funcion para encriptar la contraseña 
-        conf.Contrasena = pass.attr('value');
+
+        // * Encriptando la contraseña
+        let passEncr = pass.attr('value');
+        const finalPass = encriptacion(passEncr);
+        conf.password = finalPass
         
 
         console.log(conf);
