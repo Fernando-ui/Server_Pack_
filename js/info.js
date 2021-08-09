@@ -7,13 +7,10 @@ exports.acceso = void 0;
 var sweetalert2_all_min_js_1 = __importDefault(require("../node_modules/sweetalert2/dist/sweetalert2.all.min.js"));
 require("jquery");
 var boton = $('#button_accesar');
-var form = $('form');
 var pass = $('#child_password');
 var user = $('#user');
 var acceso = function () {
     boton.on('click', function (e) {
-        var val = form.serialize();
-        console.log(val);
         e.preventDefault();
         if (!user.val() || !pass.val()) {
             sweetalert2_all_min_js_1.default.fire({
@@ -23,6 +20,17 @@ var acceso = function () {
             });
             throw new Error('No se han llenado los campos especificados');
         }
+        var use = user.val();
+        user.attr('value', use);
+        var pas = pass.val();
+        pass.attr('value', pas);
+        var conf = {
+            Usuario: '',
+            Contrasena: ''
+        };
+        conf.Usuario = user.attr('value');
+        conf.Contrasena = pass.attr('value');
+        console.log(conf);
     });
 };
 exports.acceso = acceso;
