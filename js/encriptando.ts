@@ -8,11 +8,9 @@ const encriptacion = (password?:string) => {
     const salt:any = bcryptjs.genSaltSync();
     const resp = bcryptjs.hashSync( password, salt);
     
-    console.log(resp);
     return resp;
 
 }
-
 
 
 
