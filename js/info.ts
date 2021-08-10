@@ -52,6 +52,14 @@ const acceso = () => {
         conf.password = finalPass
         
 
+        // TODO Si todo sale bien colocar este mensaje ya con la validacion en BD 
+        // Swal.fire({
+        //     position: 'top-end',
+        //     icon: 'success',
+        //     title: 'Identificando',
+        //     showConfirmButton: false,
+        //     timer: 1500
+        // })
         console.log(conf);
     })
     
