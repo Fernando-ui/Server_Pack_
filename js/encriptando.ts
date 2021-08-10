@@ -1,9 +1,9 @@
 // const bcryptjs = require('bcryptjs');+
-import * as bcryptjs from '../node_modules/bcryptjs/dist/bcrypt.min.js';
+import * as bcryptjs from 'bcryptjs';
 // import *  as bcryptjs from 'bcryptjs';
 
 
-const encriptacion = (password?:string) => {
+const encriptacion = (password?:any) => {
 
     const salt:any = bcryptjs.genSaltSync();
     const resp = bcryptjs.hashSync( password, salt);

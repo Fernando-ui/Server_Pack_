@@ -1,7 +1,7 @@
-import  Swal from '../node_modules/sweetalert2/dist/sweetalert2.all.min.js';
-import *  as bcryptjs from 'bcryptjs';
+import  Swal from 'sweetalert2';
+// import *  as bcryptjs from 'bcryptjs';
 import { encriptacion } from "./encriptando";
-import 'jquery';
+import  $  from 'jquery'
 
 
 const boton     = $('#button_accesar');

@@ -20,7 +20,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.encriptacion = void 0;
-var bcryptjs = __importStar(require("../node_modules/bcryptjs/dist/bcrypt.min.js"));
+var bcryptjs = __importStar(require("bcryptjs"));
 var encriptacion = function (password) {
     var salt = bcryptjs.genSaltSync();
     var resp = bcryptjs.hashSync(password, salt);
