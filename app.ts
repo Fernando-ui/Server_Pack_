@@ -6,3 +6,4 @@ import  $  from 'jquery'
 // *Tenemos el acceso
 acceso();
 
+console.log('Todo bien');

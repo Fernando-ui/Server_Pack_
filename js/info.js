@@ -23,15 +23,14 @@ var acceso = function () {
         }
         var use = user.val();
         user.attr('value', use);
-        var pas = pass.val();
-        pass.attr('value', pas);
         var conf = {
             Usuario: '',
             password: ''
         };
         conf.Usuario = user.attr('value');
-        var passEncr = pass.attr('value');
+        var passEncr = pass.val();
         var finalPass = encriptando_1.encriptacion(passEncr);
+        pass.attr('value', finalPass);
         conf.password = finalPass;
         console.log(conf);
     });

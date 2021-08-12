@@ -15,7 +15,7 @@ const acceso = () => {
             
         e.preventDefault();
 
-        // * Informacion serializada
+        // * Verificando si hay algo en los campos
         
         if(!user.val() || !pass.val() ){
 
@@ -29,26 +29,27 @@ const acceso = () => {
             throw new Error('No se han llenado los campos especificados')
         }
         
+        // *Asignando el valor al atributo usuario y contrasena
+
         const use:any = user.val();
         user.attr('value',use)
         
 
-        const pas:any = pass.val();
-        pass.attr('value',pas);
         
-    
-
+        
         // * Mandando la infromacion en tipo Json
-        const conf:{Usuario?:string,  password?:string} = {
+        const conf:{Usuario?:string,  password:string} = {
             Usuario:'',
             password:''
         };
         
         conf.Usuario = user.attr('value');
-
+        
         // * Encriptando la contraseña
-        let passEncr = pass.attr('value');
+        
+        const passEncr = pass.val();
         const finalPass = encriptacion(passEncr);
+        pass.attr('value',finalPass);
         conf.password = finalPass
         
 
