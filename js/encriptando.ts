@@ -1,6 +1,4 @@
-// const bcryptjs = require('bcryptjs');+
 import * as bcryptjs from 'bcryptjs';
-// import *  as bcryptjs from 'bcryptjs';
 
 
 const encriptacion = (password?:any) => {
