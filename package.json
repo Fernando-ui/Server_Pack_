@@ -19,7 +19,6 @@
     "@types/bcrypt": "^5.0.0",
     "bcryptjs": "^2.4.3",
     "jquery": "^3.6.0",
-    "sweetalert2": "^11.1.2",
-    "systemjs": "^0.19.41"
+    "sweetalert2": "^11.1.2"
   }
 }
